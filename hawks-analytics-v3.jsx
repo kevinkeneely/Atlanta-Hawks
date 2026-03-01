@@ -1,5 +1,17 @@
-// ...other code
+import React from 'react';
 
-const keyInsightText = "Only Dyson Daniels (+1.8), Jalen Johnson (+1.6) and Nickeil Alexander-Walker (+0.7) post positive EPM. Every other rotation player is a net negative. This three-man reliance is Atlanta's biggest vulnerability.";
+const HawksAnalyticsDashboard = () => {
+    return (
+        <div>
+            <h1>Atlanta Hawks Analytics Dashboard</h1>
+            <h2>Key Insights</h2>
+            <ul>
+                <li>Dyson Daniels is showing significant improvement with a positive EPM (Estimated Plus-Minus) this season.</li>
+                <li>Jalen Johnson continues to develop and has also posted a notable positive EPM, reflecting his growing impact on the court.</li>
+                <li>Nickeil Alexander-Walker is contributing effectively, with his recent games reflecting a positive EPM trend.</li>
+            </ul>
+        </div>
+    );
+};
 
-// ...other code
+export default HawksAnalyticsDashboard;
